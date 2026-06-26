@@ -36,7 +36,7 @@ export default function Pricing() {
           Pricing
         </p>
 
-        <h2 className="heading text-4xl md:text-5xl mt-4 mb-10 leading-tight">
+        <h2 className="heading text-3xl md:text-4xl mt-4 mb-10 leading-tight">
           Simple Pricing.
           <br />
           Powerful Results.
@@ -110,7 +110,7 @@ export default function Pricing() {
 
   </div>
 
-  <ul className="space-y-4 mb-10">
+  <ul className="space-y-5 mb-10">
 
     <li>✓ Unlimited AI Agents</li>
     <li>✓ Workflow Automation</li>

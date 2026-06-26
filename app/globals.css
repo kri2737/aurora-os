@@ -27,9 +27,12 @@ body{
   font-family:var(--font-inter);
 }
 .heading{
+  font-family:var(--font-inter);
+  font-weight:700;
+}
+.mono{
   font-family:var(--font-jetbrains);
 }
-
 .text{
   font-family:var(--font-inter);
 }

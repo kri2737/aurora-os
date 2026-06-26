@@ -19,7 +19,7 @@ export default function BentoFeatures() {
           Autonomous Departments
         </p>
 
-        <h2 className="heading text-4xl md:text-5xl mt-4 leading-tight">
+        <h2 className="heading text-3xl md:text-4xl mt-4 leading-tight">
           Every Department.
           <br />
           Powered by Intelligence.
@@ -37,7 +37,7 @@ export default function BentoFeatures() {
             className={`
               rounded-[32px]
               border
-              p-8
+              p-10
               cursor-pointer
               transition-all
               duration-300
@@ -59,7 +59,7 @@ export default function BentoFeatures() {
             `}
           >
 
-            <div className="w-16 h-16 rounded-2xl bg-[var(--primary)] flex items-center justify-center mb-8">
+             <div className="w-14 h-14 rounded-xl bg-[var(--primary)] flex items-center justify-center mb-5">
 
               <Image
                 src={feature.icon}
@@ -70,11 +70,11 @@ export default function BentoFeatures() {
 
             </div>
 
-            <h3 className="heading text-3xl mb-6">
-              {feature.title}
-            </h3>
+            <h3 className="heading text-2xl font-bold mb-4">
+            {feature.title}
+              </h3>
 
-            <p className="leading-8 opacity-80">
+            <p className="text-base leading-7 opacity-80">
               {feature.description}
             </p>
 

@@ -2,13 +2,13 @@ export default function CTA() {
     return (
       <section className="container py-16">
   
-        <div className="rounded-[40px] bg-[var(--secondary)] p-14 text-center text-white shadow-xl">
+        <div className="rounded-[40px] bg-[var(--secondary)] p-20 text-center text-white shadow-xl">
   
           <p className="uppercase tracking-[0.3em] text-sm text-white/70">
             Ready To Begin
           </p>
   
-          <h2 className="heading text-4xl md:text-6xl mt-6">
+          <h2 className="heading text-4xl md:text-5xl mt-6">
             Build Smarter.
             <br />
             Scale Faster.
@@ -19,7 +19,7 @@ export default function CTA() {
             operations, improve productivity and unlock intelligent growth.
           </p>
   
-          <div className="mt-10 flex justify-center gap-5">
+          <div className="mt-10 flex justify-center gap-8">
   
             <button className="rounded-full bg-[var(--primary)] px-8 py-4 font-semibold text-black hover:scale-105 transition">
               Start Free

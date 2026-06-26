@@ -3,8 +3,8 @@ import Hero from "@/components/Hero";
 import Trusted from "@/components/Trusted";
 import BentoFeatures from "@/components/BentoFeatures";
 import Pricing from "@/components/Pricing";
-import Workflow from "@/components/Workflow";
-import Dashboard from "@/components/Dashboard";
+
+
 import Testimonials from "@/components/Testimonials";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
@@ -16,12 +16,10 @@ export default function Home() {
       <Hero />
       <Trusted />
       <BentoFeatures />
-      <Workflow />
-      <Dashboard/>
       <Pricing />
       <Testimonials />
-      <CTA/>
-      <Footer/>
+      <CTA />
+      <Footer />
     </main>
   );
 }

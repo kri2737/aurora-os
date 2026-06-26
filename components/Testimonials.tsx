@@ -4,21 +4,21 @@ export default function Testimonials() {
   
       {
         name: "Sarah Chen",
-        role: "Founder · NovaTech",
+        role: "Founder ·  SaaS Startup",
         quote:
           "AuroraOS reduced repetitive work by almost 70% within our first month.",
       },
   
       {
         name: "Michael Ross",
-        role: "Operations Lead · HyperGrid",
+        role: "Operations Lead · E-commerce",
         quote:
           "The automation workflows feel like adding an entire team overnight.",
       },
   
       {
         name: "Emily Carter",
-        role: "CTO · Synapse AI",
+        role: "CTO ·  FinTech",
         quote:
           "The best AI platform we've used. Fast, reliable and beautifully designed.",
       },
@@ -35,7 +35,7 @@ export default function Testimonials() {
             Testimonials
           </p>
   
-          <h2 className="heading text-4xl md:text-5xl mt-4">
+          <h2 className="heading text-3xl md:text-4xl mt-4">
             Loved By Modern Teams
           </h2>
   

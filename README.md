@@ -35,3 +35,12 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 # aurora-os
+
+# AuroraOS
+
+🚀 Live Demo: https://aurora-os-nine.vercel.app
+
+## Tech Stack
+- Next.js 16
+- React 19
+- Tailwind CSS v4

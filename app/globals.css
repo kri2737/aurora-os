@@ -35,6 +35,31 @@ body{
 }
 
 .container{
-  width:min(1200px,90%);
-  margin:auto;
+  width:min(1280px,92%);
+  margin-inline:auto;
+}
+.btn-primary{
+  background: var(--primary);
+  color: black;
+  border-radius: 9999px;
+  padding: 14px 28px;
+  font-weight: 600;
+  transition: all .3s ease;
+}
+
+.btn-primary:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 15px 30px rgba(0,0,0,.12);
+}
+
+.btn-secondary{
+  border:1px solid var(--secondary);
+  border-radius:9999px;
+  padding:14px 28px;
+  transition:.3s;
+}
+
+.btn-secondary:hover{
+  background:var(--secondary);
+  color:white;
 }

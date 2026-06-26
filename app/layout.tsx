@@ -12,9 +12,10 @@ const jetbrains = JetBrains_Mono({
   variable: "--font-jetbrains",
 });
 
-export const metadata: Metadata = {
-  title: "Aurora OS",
-  description: "The Operating System for Autonomous Companies",
+export const metadata = {
+  title: "AuroraOS | AI Operating System",
+  description:
+    "AuroraOS is an AI-powered operating system that automates finance, sales, legal, support and operations through autonomous workflows.",
 };
 
 export default function RootLayout({

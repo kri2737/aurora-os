@@ -11,11 +11,11 @@ export default function Hero() {
             </p>
   
             <h1 className="heading text-5xl lg:text-7xl font-bold leading-tight">
-              Deploy
-              <br />
-              Departments.
-              <br />
-              Not Dashboards.
+            <>
+               Deploy Departments.
+               <br />
+               Not Dashboards.
+            </>
             </h1>
   
             <p className="mt-8 text-lg text-gray-600 max-w-xl">
@@ -26,13 +26,13 @@ export default function Hero() {
   
             <div className="flex gap-4 mt-10">
   
-              <button className="bg-[var(--primary)] rounded-full px-7 py-4 font-semibold hover:scale-105 transition">
-                Launch Aurora
-              </button>
+            <button className="btn-primary">
+               Launch Aurora
+            </button>
   
-              <button className="border border-[var(--secondary)] rounded-full px-7 py-4 hover:bg-[var(--secondary)] hover:text-white transition">
-                Watch Demo
-              </button>
+            <button className="btn-secondary">
+  Watch Demo
+</button>
   
             </div>
   
